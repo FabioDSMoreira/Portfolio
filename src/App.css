@@ -715,6 +715,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+@media (max-width: 991px) {
+  .project-card {
+    margin-bottom: 25px;
+  }
+}
+
 /* Contact */
 
 .contact {
@@ -918,6 +924,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
+}
+
+@media (max-width: 991px) {
+  .new-email-box {
+    flex-direction: column;
+  }
+
+  .new-email-box input {
+    margin-top: 25px;
+  }
+
+  .new-email-box button {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .new-email-box{
+    margin-top: 25px;
+  }
+
+  .new-email-box button {
+    width: 100%;
+  }
 }
 
 /* Footer */
