@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1d149920.css",
+    "main.css": "/Portfolio/static/css/main.418413de.css",
     "main.js": "/Portfolio/static/js/main.761921ba.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/proj-realestateagency.png": "/Portfolio/static/media/proj-realestateagency.f83097ef1a807032b0ec.png",
@@ -31,12 +31,12 @@
     "static/media/lng-fr.svg": "/Portfolio/static/media/lng-fr.78440fc75e9568b24cc357b35bc0ae8f.svg",
     "static/media/skills-css.svg": "/Portfolio/static/media/skills-css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/skills-html.svg": "/Portfolio/static/media/skills-html.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.1d149920.css.map": "/Portfolio/static/css/main.1d149920.css.map",
+    "main.418413de.css.map": "/Portfolio/static/css/main.418413de.css.map",
     "main.761921ba.js.map": "/Portfolio/static/js/main.761921ba.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d149920.css",
+    "static/css/main.418413de.css",
     "static/js/main.761921ba.js"
   ]
 }
