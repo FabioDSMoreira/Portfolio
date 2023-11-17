@@ -275,6 +275,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0 !important;
   margin-right: 10px;
   width: 100px;
+  transition: all 0.2s ease-in-out;
+  backdrop-filter: blur(3px) !important;
+}
+
+.navbar-dropdown .btn-success:hover {
+  background-color: rgba(217, 217, 217, 0.1) !important;
 }
 
 .navbar-dropdown .dropdown-toggle::after {
@@ -284,6 +290,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .navbar-dropdown .dropdown-menu.show {
   display: block;
   background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px) !important;
 }
 
 .navbar-dropdown .dropdown-menu {
@@ -302,15 +309,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   cursor: pointer;
   font-weight: 400;
   width: 100px;
-}
-
-.navbar-dropdown .dropdown-item:nth-child(n + 1) {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-dropdown .dropdown-item:focus,
 .navbar-dropdown .dropdown-item:hover {
   background-color: rgba(217, 217, 217, 0.1) !important;
+}
+
+.navbar-dropdown .dropdown-item:nth-child(n + 1) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .navbar-dropdown img {
@@ -629,7 +637,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project-card {
-  height: 350px;
+  height: 325px;
 }
 
 .proj-img-box {
@@ -696,6 +704,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   margin: 15px 0;
   text-align: left;
+  opacity: 1;
+  color: white;
 }
 
 .proj-txt span {

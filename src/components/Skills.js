@@ -41,6 +41,8 @@ function Skills() {
               <Carousel
                 responsive={responsive}
                 infinite={true}
+                autoPlay
+                autoPlaySpeed={5000}
                 className="skill-slider"
               >
                 {SkillsList.map((skill, index) => {
