@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193 193" width="193" height="193">
+	<title>lng-uk-svg</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #33348e } 
+		.s2 { fill: #cc2229 } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m184.3 149.6v-106.5h-175.8v106.5z"/>
+	<path id="Layer" fill-rule="evenodd" class="s1" d="m184.3 149.6v-106.5h-175.8v106.5z"/>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m116.8 149.6v-37.1h67.5v-32.2h-67.5v-37.2h-41.7v37.2h-66.6v32.2h66.6v37.1z"/>
+	<path id="Layer" class="s0" d="m29.9 43.1l154.4 93.6v12.9h-21.1l-154.7-93.7v-12.8z"/>
+	<path id="Layer" class="s0" d="m162.8 43.1l-154.3 93.6v12.9h21l154.8-93.7v-12.8z"/>
+	<path id="Layer" fill-rule="evenodd" class="s2" d="m184.3 86.1h-75.2v-43h-25.4v43h-75.2v20.5h75.2v43h25.4v-43h75.2z"/>
+	<path id="Layer" fill-rule="evenodd" class="s2" d="m8.6 43.1l61 37.2h-13.7l-47.4-28.9v-8.3zm60.7 69.4h5.8v4.8l-53.2 32.3h-13.4v-0.2zm114.1 37.2l-61.1-37.2h13.7l48.3 29.4v7.8zm0.2-106.5l-61.1 37.2h-5.6v-4.9l53-32.3z"/>
+</svg>

@@ -1,0 +1,81 @@
+{
+  "navbar": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Let's Contact"
+  },
+  "banner": {
+    "portfolio": "Welcome to my Portfolio",
+    "welcome": "Hey, I'm Fábio.",
+    "job": "App Development",
+    "about": {
+      "me": "My name is Fábio, I am 22 years old, and I live in Geneva. I have been passionate about computers since childhood, as well as the world of video games. I started coding over a year ago.",
+      "goal": "Currently, I am seeking an apprenticeship position in the field of computer science. I am pursuing self-directed learning on Codecademy (Front-End Engineer Path) and OpenClassrooms."
+    },
+    "download": "Download my CV"
+  },
+  "skill": {
+    "title": "Skills",
+    "paragraph": "Passionate about emerging technologies, I easily adapt and am motivated to learn new programming languages. Actively pursuing self-directed learning on platforms like Codecademy and OpenClassrooms, I demonstrate a proactive approach to expanding my skills in the field of information technology."
+  },
+  "project": {
+    "title": "Projects",
+    "paragraph": "My approach to skills revolves around actively applying acquired knowledge in project implementation. Focusing intently on each project detail enables me to refine my abilities, while the ongoing evolution of projects serves as a continuous learning opportunity for acquiring new techniques.",
+    "tabs": {
+      "personal": "Personal",
+      "professional": "Professional"
+    },
+    "projects": {
+      "personal": {
+        "portfolio": {
+          "title": "Portfolio",
+          "description": "Portfolio bringing together my projects and my skills.",
+          "status": "Done"
+        },
+        "pearl": {
+          "title": "Pearl",
+          "description": "Discord BOT for the community servers or private servers.",
+          "status": "In Development"
+        },
+        "playsmart": {
+          "title": "PlaySmart",
+          "description": "For people who wants to learn some stuffs in a game.",
+          "status": "In Development"
+        }
+      },
+      "professional": {
+        "realestateagency": {
+          "title": "Real Estate Agency",
+          "description": "Students project in a professional real estate school recognized in France.",
+          "status": "In Development"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Adress",
+    "phone": "Phone No.",
+    "message": "Message",
+    "button": {
+      "send": "Send",
+      "sending": "Sending..."
+    },
+    "sent": {
+      "success": "Message sent.",
+      "error": "Something went wrong."
+    }
+  },
+  "newsletter": {
+    "subscribe": "Subscribe to our Newsletter",
+    "updates": "& Never miss latest updates",
+    "email": "Email Adress",
+    "submit": "Submit"
+  },
+  "footer": {
+    "copyright": "2023 - Fábio Moreira. All Rights Reserved."
+  }
+}

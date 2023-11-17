@@ -1,0 +1,81 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Me Contacter"
+  },
+  "banner": {
+    "portfolio": "Bienvenue sur mon Portfolio",
+    "welcome": "Bonjour, je suis Fábio.",
+    "job": "Développement d'App",
+    "about": {
+      "me": "Je m'appelle Fábio, j'ai 22 ans et je vis à Genève. Je suis passionné par l'informatique depuis l'enfance ainsi que par le monde des jeux vidéo. J'ai commencé à coder, il y a plus d'un an maintenant.",
+      "goal": "Actuellement, je cherche une place d'apprentissage dans le domaine de l'informatique. Je me forme en autonomie sur Codecademy (Front-End Engineer Path) et OpenClassrooms."
+    },
+    "download": "Téléchergez mon CV"
+  },
+  "skill": {
+    "title": "Compétences",
+    "paragraph": "Adeptes des nouvelles technologies, je m'adapte facilement et suis motivé pour apprendre de nouveaux langages. Je poursuis activement ma formation en autonomie sur Codecademy et OpenClassrooms, démontrant ainsi ma capacité à élargir mes compétences de manière proactive dans le domaine des technologies de l'information."
+  },
+  "project": {
+    "title": "Projets",
+    "paragraph": "J'applique activement mes connaissances dans la réalisation de projets, me concentrant sur chaque détail pour perfectionner mes compétences. Cette approche me permet d'apprendre continuellement de nouvelles techniques au fur et à mesure de l'évolution des projets.",
+    "tabs": {
+      "personal": "Personnel",
+      "professional": "Professionnel"
+    },
+    "projects": {
+      "personal": {
+        "portfolio": {
+          "title": "Portfolio",
+          "description": "Portfolio regroupant mes projets et mes compétences.",
+          "status": "Terminé"
+        },
+        "pearl": {
+          "title": "Pearl",
+          "description": "BOT Discord pour les serveurs communautaires ou les serveurs privés.",
+          "status": "En développement"
+        },
+        "playsmart": {
+          "title": "PlaySmart",
+          "description": "Pour les personnes qui veulent apprendre des choses dans un jeu.",
+          "status": "En développement"
+        }
+      },
+      "professional": {
+        "realestateagency": {
+          "title": "Agence immobilière",
+          "description": "Projet étudiants dans une école immobilière professionnelle reconnue en France.",
+          "status": "En développement"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Entrer En Contact",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Adresse Email",
+    "phone": "N° de Téléphone",
+    "message": "Message",
+    "button": {
+      "send": "Envoyer",
+      "sending": "Envoi en cours..."
+    },
+    "sent": {
+      "success": "Message envoyé.",
+      "error": "Erreur lors de l'envoie."
+    }
+  },
+  "newsletter": {
+    "subscribe": "Inscrivez-vous à notre newsletter",
+    "updates": "& Ne manquez jamais les dernières mises à jour",
+    "email": "Adresse Email",
+    "submit": "Soumettre"
+  },
+  "footer": {
+    "copyright": "2023 - Fábio Moreira. Tous Droits Réservés."
+  }
+}
