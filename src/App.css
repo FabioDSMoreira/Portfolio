@@ -328,34 +328,47 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width: 991px) {
-  nav.navbar {
+  .navbar {
     background-color: #121212;
-  }
-
-  .navbar-nav {
-    width: 100%;
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  .navbar-nav .nav-link {
-    display: block;
-    padding: 15px 0;
   }
 
   .logo-icon {
     width: 50px;
   }
 
-  nav.navbar .navbar-nav .nav-link.navbar-link {
+  .navbar .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 30px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+    padding: 20px 0 !important;
+  }
+
+  .navbar .navbar-nav .nav-link:nth-child(1) {
     margin-top: 50px;
   }
 
-  .navbar-dropdown {
-    display: flex;
-    justify-content: left;
+  .navbar .navbar-nav .nav-link:nth-last-child(1) {
+    margin-bottom: 50px;
+    border-bottom: none !important;
+  }
+
+  .navbar .navbar-nav .navbar-dropdown .btn-success {
+    margin-right: 0;
+  }
+
+  .navbar .navbar-dropdown .dropdown-menu.show {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navbar .navbar-text {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    margin: 75px 0 100px 0;
+    margin: 25px 0;
   }
 }
 
@@ -406,7 +419,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 96%;
 }
 
-.banner a {
+.banner-btn-download {
   text-decoration: none;
 }
 
@@ -419,9 +432,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 350px;
   letter-spacing: 0.8px;
   margin-top: 60px;
@@ -626,13 +636,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border-radius: 55px 55px 0 0;
   overflow: hidden;
 }
 
 .nav-link#projects-tabs-tab-second {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
+  border-radius: 0 0 55px 55px;
   overflow: hidden;
 }
 
@@ -728,6 +738,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width: 991px) {
   .project-card {
     margin-bottom: 25px;
+  }
+
+  .project .nav.nav-pills .nav-item {
+    width: 100%;
   }
 }
 
@@ -951,7 +965,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width: 991px) {
-  .new-email-box{
+  .new-email-box {
     margin-top: 25px;
   }
 

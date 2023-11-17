@@ -61,7 +61,11 @@ function Banner() {
             </h1>
             <p>{t("banner.about.me")}</p>
             <p>{t("banner.about.goal")}</p>
-            <a href="../assets/downloads/CV.zip" download>
+            <a
+              href="../assets/downloads/CV.zip"
+              download
+              className="banner-btn-download"
+            >
               <button onClick={() => console.log("download")}>
                 <span>
                   {t("banner.download")} <Download size={30} />

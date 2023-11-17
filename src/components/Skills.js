@@ -42,7 +42,7 @@ function Skills() {
                 responsive={responsive}
                 infinite={true}
                 autoPlay
-                autoPlaySpeed={5000}
+                autoPlaySpeed={3000}
                 className="skill-slider"
               >
                 {SkillsList.map((skill, index) => {
