@@ -344,31 +344,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .navbar .navbar-nav .nav-link:nth-child(1) {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .navbar .navbar-nav .nav-link:nth-last-child(1) {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     border-bottom: none !important;
   }
 
-  .navbar .navbar-nav .navbar-dropdown .btn-success {
+  .navbar-dropdown .btn-success {
     margin-right: 0;
   }
 
-  .navbar .navbar-dropdown .dropdown-menu.show {
+  .navbar-dropdown .dropdown-menu.show {
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
   }
 
-  .navbar .navbar-text {
+  .navbar-text {
     display: flex !important;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 0;
+    margin: 100px 0 25px 0;
   }
 }
 
@@ -1006,4 +1006,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .footer img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer-logo {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+  }
 }
