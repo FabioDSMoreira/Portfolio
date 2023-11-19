@@ -491,6 +491,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+@media (max-width: 500px) {
+  .banner h1 {
+    font-size: 30px;
+  }
+
+  .banner h1 span.wrap {
+    font-size: 25px;
+  }
+
+  .banner button {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
 /* Skills */
 
 .skill {
@@ -562,6 +577,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+@media (max-width: 500px) {
+  .skill h2 {
+    font-size: 30px;
+  }
+
+  .skill p {
+    text-align: left;
+  }
 }
 
 /* Projects */
@@ -736,6 +761,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width: 991px) {
+
   .project-card {
     margin-bottom: 25px;
   }
@@ -754,6 +780,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 0 0 55px 55px;
     overflow: hidden;
+  }
+}
+
+@media (max-width: 500px) {
+  .project h2 {
+    font-size: 30px;
+  }
+
+  .project p {
+    text-align: left;
+    width: 80%;
   }
 }
 
@@ -888,6 +925,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: white;
 }
 
+@media (max-width: 500px) {
+  .contact form button {
+    width: 325;
+  }
+}
+
 /* Newsletter */
 
 .newsletter-box {
@@ -984,6 +1027,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .new-email-box button {
     width: 100%;
   }
+
+@media (max-width: 600px) {
+  .newsletter-box {
+    padding: 85px 25px
+  }
+}
 }
 
 /* Footer */
