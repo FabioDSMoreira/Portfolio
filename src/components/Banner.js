@@ -5,6 +5,8 @@ import { useTranslation } from "react-i18next";
 
 import headerImage from "../assets/images/cosmonaut.svg";
 
+const cvFilePath = `${process.env.PUBLIC_URL}/download/cv.pdf`;
+
 function Banner() {
   const [t] = useTranslation("global");
 
@@ -61,17 +63,19 @@ function Banner() {
             </h1>
             <p>{t("banner.about.me")}</p>
             <p>{t("banner.about.goal")}</p>
-            <a
-              href="../assets/downloads/CV.zip"
-              download
-              className="banner-btn-download"
-            >
-              <button onClick={() => console.log("download")}>
-                <span>
-                  {t("banner.download")} <Download size={30} />
-                </span>
-              </button>
-            </a>
+            <span className="banner-btn">
+              <a
+                href={cvFilePath}
+                download="FábioCV.pdf"
+                type="application/pdf"
+              >
+                <button>
+                  <span>
+                    {t("banner.download")} <Download size={30} />
+                  </span>
+                </button>
+              </a>
+            </span>
           </Col>
           <Col xs={12} md={6} xl={6}>
             <img src={headerImage} alt="Banner" />
