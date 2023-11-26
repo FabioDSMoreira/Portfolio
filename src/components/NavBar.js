@@ -110,7 +110,7 @@ function NavBar() {
           <span className="navbar-text">
             <div className="social-icon">
               <a
-                href="https://www.linkedin.com/in/f%C3%A1biomoreiradev/"
+                href="https://www.linkedin.com/in/FabioMoreiraDEV/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
