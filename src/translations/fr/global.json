@@ -10,14 +10,14 @@
     "welcome": "Bonjour, je suis Fábio.",
     "job": "Développement d'App",
     "about": {
-      "me": "Je m'appelle Fábio, j'ai 22 ans et je vis à Genève. Je suis passionné par l'informatique depuis l'enfance ainsi que par le monde des jeux vidéo. J'ai commencé à coder, il y a plus d'un an maintenant.",
+      "me": "Je m'appelle Fábio, j'ai 22 ans et je vis à Genève. Je suis passionné par l'informatique depuis mon enfance ainsi que par le monde des jeux vidéo. J'ai commencé à coder, il y a plus d'un an maintenant.",
       "goal": "Actuellement, je cherche une place d'apprentissage dans le domaine de l'informatique. Je me forme en autonomie sur Codecademy (Front-End Engineer Path) et OpenClassrooms."
     },
     "download": "Téléchergez mon CV"
   },
   "skill": {
     "title": "Compétences",
-    "paragraph": "Adeptes des nouvelles technologies, je m'adapte facilement et suis motivé pour apprendre de nouveaux langages. Je poursuis activement ma formation en autonomie sur Codecademy et OpenClassrooms, démontrant ainsi ma capacité à élargir mes compétences de manière proactive dans le domaine des technologies de l'information."
+    "paragraph": "Adepte des nouvelles technologies, je m'adapte facilement et suis motivé pour apprendre de nouveaux langages. Je poursuis activement ma formation en autonomie sur Codecademy et OpenClassrooms, démontrant ainsi ma capacité à élargir mes compétences de manière proactive dans le domaine des technologies de l'information."
   },
   "project": {
     "title": "Projets",
